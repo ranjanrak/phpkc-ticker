@@ -2,12 +2,15 @@
 [PHP kiteconnect client](https://github.com/zerodha/phpkiteconnect) websocket ticker implementation.
 
 ## Usage
-To-do: Add all ticker callbacks
-
 ```php
 $kitewebsocket = new KiteTicker("api_key", "access_token", "full", [59736071]);
 $kitewebsocket->connect();
 ```
+
+## To-do
+* Re-connect logic
+* Order update
+
 
 ## Response
 Response structure remains the same of [current kiteconnect websocket](https://kite.trade/docs/connect/v3/websocket/#quote-packet-structure).
